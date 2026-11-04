@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Онлайн-воркшоп «Как курить красиво» — скоро</title>
+  <meta name="description" content="Кинематографический воркшоп о кадре, свете, паузе и создании экранного образа.">
+  <meta name="theme-color" content="#0a0a0b">
+  <base href="/smoke/">
+  <link rel="icon" href="assets/poster.jpg" type="image/jpeg">
+  <link rel="preload" as="image" href="assets/poster.jpg">
+    <link rel="stylesheet" href="styles.css?v=smoke-mobile-concurrent-playback-v140">
+</head>
+<body>
+  <main class="hero" id="top">
+    <video class="hero-video" id="hero-video" poster="assets/poster.jpg" autoplay playsinline loop muted preload="auto" aria-label="Intro video"></video>
+    <div class="hero-vhs-overlay" aria-hidden="true"></div>
+    <p class="coming-soon" aria-label="Coming soon">COMING SOON</p>
+    <div class="surname-list" aria-label="Firth, Lavrov, Bogomolov, Mara, Leung, Cheung, Wong, Medvedev, Bogart, Eastwood, Livanov, Stone, Belmondo, Bardot, Hepburn, Brodsky, Brody, Makovetsky, Cobain">
+      <h1 class="workshop-title" id="workshop-title">онлайн воркшоп «как курить красиво»</h1>
+      <p class="surname-list__line"><span class="surname-name" tabindex="0">C. Firth</span>, <span class="surname-name" tabindex="0">S. Lavrov</span>, <span class="surname-name" tabindex="0">K. Bogomolov</span>, <span class="surname-name" tabindex="0">R. Mara</span>, <span class="surname-name" tabindex="0">T. Leung</span>, <span class="surname-name" tabindex="0">M. Cheung</span>, <span class="surname-name" tabindex="0">F. Wong</span>, <span class="surname-name" tabindex="0">K. Medvedev</span>, <span class="surname-name" tabindex="0">H. Bogart</span>,</p>
+      <p class="surname-list__line"><span class="surname-name" tabindex="0">C. Eastwood</span>, <span class="surname-name" tabindex="0">V. Livanov</span>, <span class="surname-name" tabindex="0">S. Stone</span>, <span class="surname-name" tabindex="0">J.-P. Belmondo</span>, <span class="surname-name" tabindex="0">B. Bardot</span>, <span class="surname-name" tabindex="0">A. Hepburn</span>, <span class="surname-name" tabindex="0">J. Brodsky</span>, <span class="surname-name" tabindex="0">A. Brody</span>,</p>
+      <p class="surname-list__line"><span class="surname-name" tabindex="0">S. Makovetsky</span>, <span class="surname-name" tabindex="0">K. Cobain</span></p>
+      <p class="surname-unlock" id="surname-unlock">клик ту ласт нейм ту анлок</p>
+    </div>
+    <aside class="name-case-card" id="name-case-card" role="dialog" aria-modal="false" aria-labelledby="name-case-title" aria-hidden="true" hidden>
+      <div class="name-case-card__surface">
+        <button class="name-case-card__close" id="name-case-close" type="button" aria-label="Закрыть карточку">×</button>
+        <img class="name-case-card__portrait" id="name-case-portrait" alt="" />
+        <div class="name-case-card__body" id="name-case-body"></div>
+      </div>
+    </aside>
+    <p class="intro-subtitle" id="intro-subtitle" aria-live="polite"></p>
+    <button class="sound-button" id="sound-button" type="button" aria-label="Turn sound on" aria-pressed="false">
+      <svg class="sound-icon play-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15L19 12 7 4.5Z"/></svg>
+      <svg class="sound-icon pause-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+    </button>
+    <span class="sound-caption">Voices</span>
+    <a class="next-arrow" href="#next" aria-label="Scroll to the next section">
+      <svg viewBox="0 0 20 48" aria-hidden="true"><path d="M10 1v43M2 36l8 9 8-9"/></svg>
+    </a>
+  </main>
+  <section class="next-section" id="next" aria-label="Second screen">
+    <div class="health-marquee-frame">
+      <div class="health-marquee health-marquee--between" aria-hidden="true">
+        <div class="health-marquee-track">
+          <span class="health-marquee-group">
+            <span class="health-marquee-line">КУРЕНИЕ ВРЕДИТ ВАШЕМУ ЗДОРОВЬЮ</span>
+            <span class="health-marquee-line">КУРЕНИЕ УБИВАЕТ</span>
+            <span class="health-marquee-line">КУРЕНИЕ ВЫЗЫВАЕТ СИЛЬНУЮ ЗАВИСИМОСТЬ, НЕ НАЧИНАЙТЕ КУРИТЬ</span>
+            <span class="health-marquee-line">ЗАЩИТИТЕ ДЕТЕЙ ОТ ТАБАЧНОГО ДЫМА</span>
+          </span>
+          <span class="health-marquee-group" aria-hidden="true">
+            <span class="health-marquee-line">КУРЕНИЕ ВРЕДИТ ВАШЕМУ ЗДОРОВЬЮ</span>
+            <span class="health-marquee-line">КУРЕНИЕ УБИВАЕТ</span>
+            <span class="health-marquee-line">КУРЕНИЕ ВЫЗЫВАЕТ СИЛЬНУЮ ЗАВИСИМОСТЬ, НЕ НАЧИНАЙТЕ КУРИТЬ</span>
+            <span class="health-marquee-line">ЗАЩИТИТЕ ДЕТЕЙ ОТ ТАБАЧНОГО ДЫМА</span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <pre class="code-screen" aria-hidden="true"></pre>
+    <p class="music-subtitle" id="music-subtitle" lang="ja" aria-live="polite"></p>
+    <audio id="second-screen-audio" preload="none" src="assets/saori-yuki-long-black-hair.aac"></audio>
+    <button class="sound-button sound-button--music" id="music-button" type="button" aria-label="Включить музыку" aria-pressed="false">
+      <svg class="sound-icon play-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15L19 12 7 4.5Z"/></svg>
+      <svg class="sound-icon pause-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+    </button>
+    <span class="music-caption">Saori Yuki — Long Black Hair</span>
+  </section>
+  <canvas class="particle-cursor" id="particle-cursor" aria-hidden="true"></canvas>
+  <script src="script.js?v=smoke-mobile-concurrent-playback-v140"></script>
+</body>
+</html>
